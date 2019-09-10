@@ -13,7 +13,7 @@ if (process.env.JAWSDB_URL) {
         user: 'root',
         password: 'password',
         database: 'burgers_db'
-    })
+    });
 };
 
 // Make the connection to MySQL
